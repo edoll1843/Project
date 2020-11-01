@@ -1,0 +1,12 @@
+KW Typing verification Program
+정확도 : 0   속도(타자/s) : 0
+
+Hello I'm an apple.
+정확도 : 100   속도(타자/s) : 2.7
+
+Do you know OOP?
+정확도 : 100   속도(타자/s) : 1
+
+So, easy to do programming!
+정확도 : 100   속도(타자/s) : 1.9
+
