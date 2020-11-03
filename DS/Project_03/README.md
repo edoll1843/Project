@@ -93,14 +93,14 @@ else if(DIJKSTRA)
 
 ### 2.4 DIJKSTRAMIN
 
+```C++
 else if(DIJKSTRAMIN) 
-13
  find start key, end key
  if(inserted vertex is insufficient)
  error : VertexKeyNotExist
  FindShortestPathDijkstraUsingMinHeap(start,end)
  print error 
- 
+``` 
     DIJKSTRAMIN의 경우 flowchart 에서도 볼 수 있듯이, DIJKSTRA 와 같은 알고리즘을 사용한다는
     점을 알 수 있습니다. 초반에 세 가지에 대하여 예외 처리를 해주고, vertex 와 edge를 while 문
     을 통하여 바꿔 주면서 최단 거리를 비교하며 정보들을 업데이트를 해주며 최단거리를 구해줍니
@@ -108,6 +108,7 @@ else if(DIJKSTRAMIN)
 
 ### 2.5 BELLMANFORD
 
+```C++
 Else if(BELLMANFORD)
 if(Graph is not exist)
 error : GraphNotExist
@@ -136,7 +137,7 @@ else
 push total distance
 push path
 return vector(include path and total distance) 
-
+```
 
     함수 실행 시 세 가지의 경우의 수에 따라 예외 처리를 해줍니다. 첫 번째, m_graph의 size 가 비
     어 있다면, 즉 아무 값도 들어가 있지 않는 상황입니다. 두 번째, 입력 받은 시작 vertex 와 마지
